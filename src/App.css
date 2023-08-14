@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bar {
+  top: 3px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  height: 2px;
+}
+
+#bar1{
+  top:7px;
+}
+.main-banner{
+background: url("./images/bg-rocket.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 715px;
+
+}
+#section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  
+}
+.subheaderComp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5rem solid white; /* Border width, style, and color */
+  padding: 20px;
+}
+/* #nav{
+  z-index: "10";
+} */
+
+
+
